@@ -1,0 +1,27 @@
+{
+  "name": "yserp-1",
+  "version": "1.0.0",
+  "description": "\"# YSERP-1\"   # ������ CMD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/house876/YSERP-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/house876/YSERP-1/issues"
+  },
+  "homepage": "https://github.com/house876/YSERP-1#readme",
+  "dependencies": {
+    "formidable-serverless": "^1.1.1",
+    "sharp": "^0.33.5",
+    "string-similarity": "^4.0.4",
+    "tesseract.js": "^6.0.0",
+    "xlsx": "^0.18.5"
+  }
+}

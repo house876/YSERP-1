@@ -1,0 +1,36 @@
+# Node.js 관련
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# 환경변수 파일
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 빌드 결과물 (프론트엔드)
+frontend/build/
+frontend/.next/
+frontend/.nuxt/
+frontend/dist/
+
+# Vercel 관련 (로컬 캐시 파일)
+.vercel
+
+# IDE 및 시스템 관련 파일
+.vscode/
+.DS_Store
+Thumbs.db
+
+# SQLite 데이터베이스 파일 및 백업
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+
+echo "frontend/node_modules/" >> .gitignore
+echo "frontend/node_modules/.cache/" >> .gitignore
